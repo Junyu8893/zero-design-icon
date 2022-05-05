@@ -1,0 +1,18 @@
+{
+  "name": "@zero-design/icons-svg",
+  "version": "0.8.0",
+  "description": "Zero Design Icons for Svg",
+  "keywords": [
+    "icon",
+    "zerodesign",
+    "zero-design",
+    "zero design",
+    "icon-svg"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typeings": "es/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,10 @@
+.z-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.z-icon svg {
+  width: 1em;
+  height: 1em;
+}

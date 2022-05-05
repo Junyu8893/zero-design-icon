@@ -1,0 +1,21 @@
+{
+  "name": "@zero-design/icons-vue-next",
+  "version": "0.8.0",
+  "description": "Zero Design Icons for Vue3",
+  "keywords": [
+    "icon",
+    "zerodesign",
+    "zero-design",
+    "zero design",
+    "icon-vue-next"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typeings": "es/index.d.ts",
+  "peerDependencies": {
+    "vue": "^3.2.25"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

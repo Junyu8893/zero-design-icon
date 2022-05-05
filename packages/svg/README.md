@@ -1,0 +1,1 @@
+@zero-design/icons-svg

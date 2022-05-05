@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.common.json",
+  "include": [
+    "demo/**/*.ts",
+    "demo/**/*.d.ts",
+    "demo/**/*.tsx",
+    "demo/**/*.vue",
+
+    "packages/**/*.ts",
+    "packages/**/*.d.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
+
+    "build/**/*.ts"
+  ]
+}

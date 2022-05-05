@@ -1,0 +1,40 @@
+{
+  "name": "@zero-ui/icons",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "tsc": "tsc --noEmit",
+    "clear:svg": "rimraf packages/svg/lib packages/svg/es",
+    "clear:vue-next": "rimraf packages/vue-next/lib packages/vue-next/es",
+    "tsc:svg": "tsc -b --force packages/svg/tsconfig.json && tsc -b --force packages/svg/tsconfig.es.json",
+    "tsc:vue-next": "tsc -b --force packages/vue-next/tsconfig.json && tsc -b --force packages/vue-next/tsconfig.es.json",
+    "build:svg": "npm run clear:svg && npm run tsc && npm run tsc:svg",
+    "build:vue-next": "npm run clear:vue-next && npm run tsc && npm run tsc:vue-next",
+    "build": "npm run build:svg && npm run build:vue-next",
+    "generate:icons": "esno build/generate-icons/script.ts"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/prettier": "^2.4.4",
+    "@types/svgo": "^2.6.2",
+    "@types/tinycolor2": "^1.4.3",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "@vitejs/plugin-vue-jsx": "^1.3.8",
+    "camelcase": "^6.3.0",
+    "chalk": "^5.0.1",
+    "esno": "^0.14.1",
+    "fast-glob": "^3.2.11",
+    "fs-extra": "^10.0.1",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "svgo": "^2.8.0",
+    "tinycolor2": "^1.4.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
